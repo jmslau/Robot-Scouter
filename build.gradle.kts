@@ -30,9 +30,9 @@ plugins {
 }
 
 buildScan {
-    setServer("https://svewtxrrdtkawq4bb45ov6wnha-trial.gradle.com")
-    setTermsOfServiceUrl("https://gradle.com/terms-of-service")
-    setTermsOfServiceAgree("yes")
+    //setServer("https://svewtxrrdtkawq4bb45ov6wnha-trial.gradle.com")
+    //setTermsOfServiceUrl("https://gradle.com/terms-of-service")
+    //setTermsOfServiceAgree("yes")
 
     publishAlways()
     for (tag in buildTags) tag(tag)

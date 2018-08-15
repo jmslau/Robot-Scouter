@@ -22,7 +22,7 @@ internal class TeamMediaUploader private constructor(
     }
 
     private fun uploadToImgur() {
-        Log.d("foossss", "bar")
+        Log.d("fooddssssssss", "bar")
         val response: Response<JsonObject> = TeamMediaApi.IMGUR_RETROFIT
                 .create(TeamMediaApi::class.java)
                 .postToImgur(
