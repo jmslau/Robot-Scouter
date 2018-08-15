@@ -9,6 +9,7 @@ import okhttp3.MediaType
 import okhttp3.RequestBody
 import retrofit2.Response
 import java.io.File
+import android.util.Log
 
 internal class TeamMediaUploader private constructor(
         team: Team
@@ -21,6 +22,7 @@ internal class TeamMediaUploader private constructor(
     }
 
     private fun uploadToImgur() {
+        Log.d("foossss", "bar")
         val response: Response<JsonObject> = TeamMediaApi.IMGUR_RETROFIT
                 .create(TeamMediaApi::class.java)
                 .postToImgur(

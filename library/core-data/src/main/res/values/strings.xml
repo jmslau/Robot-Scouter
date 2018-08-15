@@ -15,4 +15,6 @@
     </string>
     <string name="export_progress_channel_title">In-progress exports</string>
     <string name="export_progress_channel_desc">Displays the status of an in-progress export.</string>
+    <string name="imgur_client_id">Foobar</string>
+    <string name="tba_api_key">Foobar</string>
 </resources>
